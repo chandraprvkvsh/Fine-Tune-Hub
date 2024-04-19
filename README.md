@@ -1,6 +1,6 @@
 # TitleTronLLM: From Abstracts to Elegant Titles
 
-TitleTronLLM is a title generator for research papers designed to transform abstracts into concise and fitting titles. This tool utilizes Mistral-7B, an open-source Large Language Model (LLM), which has been fine-tuned on a dataset comprising research paper abstracts and their respective titles. The dataset was meticulously collected using the NASA-ADS API, ensuring quality and relevance.
+TitleTronLLM is a title generator for research papers designed to transform abstracts into concise and fitting titles. This tool utilizes Mistral-7B, an open-source Large Language Model (LLM), which has been fine-tuned on a dataset comprising research paper abstracts and their respective titles. The dataset was meticulously collected using the NASA-ADS API, ensuring quality and relevance. 
 
 ## How It Works
 
