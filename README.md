@@ -1,17 +1,9 @@
-# TitleTronLLM: From Abstracts to Elegant Titles
+# FineTune Hub
+This repository provides a collection of ready-to-run Python scripts for fine-tuning any large language models. The scripts cover:
 
-TitleTronLLM is a title generator for research papers designed to transform abstracts into concise and fitting titles. This tool utilizes Mistral-7B, an open-source Large Language Model (LLM), which has been fine-tuned on a dataset comprising research paper abstracts and their respective titles. The dataset was meticulously collected using the NASA-ADS API, ensuring quality and relevance. 
+- Parameter-Efficient Fine-Tuning (PEFT) of large language models with techniques like LoRA and quantization for efficient training.
+- Direct Preference Optimization (DPO) training for alignment using preference data.
+- Reinforcement Learning from Human Feedback (RLHF) implementations with reward models based on LSTM or Transformer architectures.
+- Serving fine-tuned models via FastAPI, including easy deployment using ngrok tunnels.
 
-## How It Works
-
-1. **Input**: Users provide an abstract of their research paper.
-2. **Processing**: The abstract is fed into the Mistral-7B LLM.
-3. **Output**: TitleTronLLM generates a suitable title based on the content of the abstract.
-
-## Future Enhancements
-
-Currently, the model is being further refined through fine-tuning on a dataset containing 200,000 samples. Additionally, Reinforcement Learning with Human Feedback (RLHF) is being employed for optimization purposes.
-
-## Acknowledgments
-
-Special thanks to NASA-ADS for providing the API used to collect the dataset for training the model.
+All scripts are designed to be generic, portable, and easily adaptable to different environments and projects. They include example setups for model loading, training arguments, dataset preparation, and pushing models to HuggingFace Hub. Minimal modifications are needed to customize tokens, paths, and project names.
